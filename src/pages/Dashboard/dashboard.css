@@ -144,5 +144,17 @@ table td .badge{
 
     table td:last-child{
         border-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        
     }
+
+    thead th:last-child {
+        display: none;
+        opacity: 0;
+        color: white;
+    }
+    
 }
